@@ -1,0 +1,57 @@
+#box {
+    width: 100%;
+    height: 2300px;
+    background-color: #f3f2f1
+}
+#fontbox {
+    width: 800px;
+    height: 250px;
+    background-color: aqua;
+    line-height: 50px;
+    font-weight: 400;
+    font-size:13pt;
+    position: relative;
+    left: 150px;
+    top:200px;
+}
+#formbox {
+    width: 800px;
+    height: 1000px;
+ /*   background-color:blue; */
+    line-height: 50px;
+    font-weight: 400;
+    font-size:13pt;
+    position: absolute;
+    
+}
+#formbox h3 {
+    color: red;
+    font-style: oblique;
+    display: inline;
+    font-weight: 200;
+}
+#formbox h2 {
+    font-style: oblique;
+    display: inline;
+    font-size:15pt;
+    font-weight: 300;
+    color: #000;
+}
+input[type=text] ,textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    background-color: white;
+}
+textarea{
+    width: 100%;
+    height: 200px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    background-color: white;
+}
+
